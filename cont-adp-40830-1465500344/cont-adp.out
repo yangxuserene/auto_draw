@@ -1,0 +1,557 @@
+./../CODES/install/bin/model-net-mpi-replay --sync=1 --disable_compute=1 --workload_type=dumpi --lp-io-use-suffix=1 --lp-io-dir=lp-io/new_codes/cont-adp --workload_conf_file=trace_conf/amg216mg125cr100.conf --alloc_file=alloc_conf/cont-alloc-1056-216_125_100.conf -- network_conf/dfly-adp.conf 
+
+Thu Jun  9 14:25:44 2016
+
+ROSS Revision: e1eb87c3dd270313c8bbe4b91e4ba445ffc8a641
+
+tw_net_start: Found world size to be 1 
+
+216 traces of app /home/yangxu/df_traces/amg216/dumpi-2014.03.03.14.55.23- 
+
+125 traces of app /home/yangxu/df_traces/mg125/dumpi-2014.03.06.23.48.13- 
+
+100 traces of app /home/yangxu/df_traces/cr100/dumpi--2014.04.23.12.12.05- 
+
+ Total nodes 1056 routers 264 groups 33 radix 16 
+
+ROSS Core Configuration: 
+	Total Nodes                                                  1
+	Total Processors                                   [Nodes (1) x PE_per_Node (1)] 1
+	Total KPs                                          [Nodes (1) x KPs (16)] 16
+	Total LPs                                                 2376
+	Simulation End Time                                300000000000.00
+	LP-to-PE Mapping                                   model defined
+
+
+ROSS Event Memory Allocation:
+	Model events                                            608257
+	Network events                                           50000
+	Total events                                            658256
+
+*** START SEQUENTIAL SIMULATION ***
+
+*** END SIMULATION ***
+
+
+ LP 0 unmatched irecvs 0 unmatched sends 0 Total sends 478 receives 478 collectives 0 delays 1218 wait alls 56 waits 0 send time 3222691.030787 wait 3728336.863593
+ LP 1 unmatched irecvs 0 unmatched sends 0 Total sends 832 receives 832 collectives 0 delays 1930 wait alls 60 waits 0 send time 5186584.390256 wait 3837352.639194
+ LP 2 unmatched irecvs 0 unmatched sends 0 Total sends 566 receives 566 collectives 0 delays 1398 wait alls 60 waits 0 send time 5374414.572908 wait 3828199.257249
+ LP 3 unmatched irecvs 0 unmatched sends 0 Total sends 840 receives 840 collectives 0 delays 1946 wait alls 60 waits 0 send time 5964169.556891 wait 3830107.786533
+ LP 9 unmatched irecvs 0 unmatched sends 0 Total sends 464 receives 464 collectives 0 delays 1184 wait alls 50 waits 0 send time 6150081.025496 wait 3860841.626988
+ LP 10 unmatched irecvs 0 unmatched sends 0 Total sends 386 receives 386 collectives 0 delays 1034 wait alls 56 waits 0 send time 3314900.176390 wait 3854684.133910
+ LP 11 unmatched irecvs 0 unmatched sends 0 Total sends 654 receives 654 collectives 0 delays 1574 wait alls 60 waits 0 send time 5740887.821296 wait 3830238.720143
+ LP 12 unmatched irecvs 0 unmatched sends 0 Total sends 790 receives 790 collectives 0 delays 1846 wait alls 60 waits 0 send time 8538382.729527 wait 3855296.418807
+ LP 18 unmatched irecvs 0 unmatched sends 0 Total sends 1194 receives 1194 collectives 0 delays 2654 wait alls 60 waits 0 send time 8762495.561866 wait 3806267.690977
+ LP 19 unmatched irecvs 0 unmatched sends 0 Total sends 1010 receives 1010 collectives 0 delays 2286 wait alls 60 waits 0 send time 7774604.555780 wait 3776853.234537
+ LP 20 unmatched irecvs 0 unmatched sends 0 Total sends 956 receives 956 collectives 0 delays 2178 wait alls 60 waits 0 send time 7775955.393766 wait 3794872.276103
+ LP 21 unmatched irecvs 0 unmatched sends 0 Total sends 528 receives 528 collectives 0 delays 1318 wait alls 56 waits 0 send time 6073843.931988 wait 3795088.608623
+ LP 27 unmatched irecvs 0 unmatched sends 0 Total sends 1026 receives 1026 collectives 0 delays 2324 wait alls 66 waits 0 send time 6272620.612013 wait 3792249.053813
+ LP 28 unmatched irecvs 0 unmatched sends 0 Total sends 1004 receives 1004 collectives 0 delays 2274 wait alls 60 waits 0 send time 8346293.629847 wait 3840013.372192
+ LP 29 unmatched irecvs 0 unmatched sends 0 Total sends 1066 receives 1066 collectives 0 delays 2398 wait alls 60 waits 0 send time 8042907.461461 wait 3837753.347595
+ LP 30 unmatched irecvs 0 unmatched sends 0 Total sends 1042 receives 1042 collectives 0 delays 2356 wait alls 66 waits 0 send time 8060892.521278 wait 3831116.495359
+ LP 36 unmatched irecvs 0 unmatched sends 0 Total sends 978 receives 978 collectives 0 delays 2222 wait alls 60 waits 0 send time 8687126.986792 wait 3865222.872384
+ LP 37 unmatched irecvs 0 unmatched sends 0 Total sends 628 receives 628 collectives 0 delays 1522 wait alls 60 waits 0 send time 5329636.680576 wait 3795019.206522
+ LP 38 unmatched irecvs 0 unmatched sends 0 Total sends 756 receives 756 collectives 0 delays 1778 wait alls 60 waits 0 send time 5548942.031820 wait 3824546.992839
+ LP 39 unmatched irecvs 0 unmatched sends 0 Total sends 1224 receives 1224 collectives 0 delays 2714 wait alls 60 waits 0 send time 8566504.624327 wait 3851413.095596
+ LP 45 unmatched irecvs 0 unmatched sends 0 Total sends 1058 receives 1058 collectives 0 delays 2382 wait alls 60 waits 0 send time 9025563.200078 wait 3877401.000361
+ LP 46 unmatched irecvs 0 unmatched sends 0 Total sends 708 receives 708 collectives 0 delays 1672 wait alls 50 waits 0 send time 8202461.609422 wait 3876419.533163
+ LP 47 unmatched irecvs 0 unmatched sends 0 Total sends 1132 receives 1132 collectives 0 delays 2530 wait alls 60 waits 0 send time 8945680.134431 wait 3851810.268737
+ LP 48 unmatched irecvs 0 unmatched sends 0 Total sends 740 receives 740 collectives 0 delays 1746 wait alls 60 waits 0 send time 5892867.592072 wait 3796335.259712
+ LP 54 unmatched irecvs 0 unmatched sends 0 Total sends 664 receives 664 collectives 0 delays 1594 wait alls 60 waits 0 send time 5741802.390200 wait 3731871.778386
+ LP 55 unmatched irecvs 0 unmatched sends 0 Total sends 674 receives 674 collectives 0 delays 1604 wait alls 50 waits 0 send time 7575792.684819 wait 3788899.728117
+ LP 56 unmatched irecvs 0 unmatched sends 0 Total sends 1028 receives 1028 collectives 0 delays 2328 wait alls 66 waits 0 send time 9063773.085153 wait 3815595.738120
+ LP 57 unmatched irecvs 0 unmatched sends 0 Total sends 1236 receives 1236 collectives 0 delays 2744 wait alls 66 waits 0 send time 8988305.323759 wait 3736336.119444
+ LP 63 unmatched irecvs 0 unmatched sends 0 Total sends 878 receives 878 collectives 0 delays 2022 wait alls 60 waits 0 send time 7703098.492642 wait 3722339.710107
+ LP 64 unmatched irecvs 0 unmatched sends 0 Total sends 690 receives 690 collectives 0 delays 1646 wait alls 60 waits 0 send time 4945457.674545 wait 3725150.497847
+ LP 65 unmatched irecvs 0 unmatched sends 0 Total sends 646 receives 646 collectives 0 delays 1558 wait alls 60 waits 0 send time 3211402.817615 wait 3693249.674200
+ LP 66 unmatched irecvs 0 unmatched sends 0 Total sends 768 receives 768 collectives 0 delays 1798 wait alls 56 waits 0 send time 5123797.415973 wait 3722075.674234
+ LP 72 unmatched irecvs 0 unmatched sends 0 Total sends 670 receives 670 collectives 0 delays 1606 wait alls 60 waits 0 send time 5030718.869847 wait 3836292.659507
+ LP 73 unmatched irecvs 0 unmatched sends 0 Total sends 794 receives 794 collectives 0 delays 1854 wait alls 60 waits 0 send time 4679334.140962 wait 3690374.252615
+ LP 74 unmatched irecvs 0 unmatched sends 0 Total sends 676 receives 676 collectives 0 delays 1618 wait alls 60 waits 0 send time 4772828.691631 wait 3737615.756693
+ LP 75 unmatched irecvs 0 unmatched sends 0 Total sends 516 receives 516 collectives 0 delays 1294 wait alls 56 waits 0 send time 3523995.752995 wait 3704990.466791
+ LP 81 unmatched irecvs 0 unmatched sends 0 Total sends 650 receives 650 collectives 0 delays 1562 wait alls 56 waits 0 send time 7852126.026021 wait 3807472.927500
+ LP 82 unmatched irecvs 0 unmatched sends 0 Total sends 1008 receives 1008 collectives 0 delays 2282 wait alls 60 waits 0 send time 11796037.040965 wait 3893898.782237
+ LP 83 unmatched irecvs 0 unmatched sends 0 Total sends 886 receives 886 collectives 0 delays 2038 wait alls 60 waits 0 send time 11978462.260155 wait 3861473.467170
+ LP 84 unmatched irecvs 0 unmatched sends 0 Total sends 726 receives 726 collectives 0 delays 1708 wait alls 50 waits 0 send time 10808695.897998 wait 3880646.604803
+ LP 90 unmatched irecvs 0 unmatched sends 0 Total sends 1080 receives 1080 collectives 0 delays 2432 wait alls 66 waits 0 send time 13557940.764005 wait 3943066.011717
+ LP 91 unmatched irecvs 0 unmatched sends 0 Total sends 804 receives 804 collectives 0 delays 1874 wait alls 60 waits 0 send time 10145691.561428 wait 3900385.360922
+ LP 92 unmatched irecvs 0 unmatched sends 0 Total sends 996 receives 996 collectives 0 delays 2258 wait alls 60 waits 0 send time 13172142.691751 wait 3908920.898895
+ LP 93 unmatched irecvs 0 unmatched sends 0 Total sends 1044 receives 1044 collectives 0 delays 2344 wait alls 50 waits 0 send time 19005237.042030 wait 3978509.044429
+ LP 99 unmatched irecvs 0 unmatched sends 0 Total sends 1010 receives 1010 collectives 0 delays 2276 wait alls 50 waits 0 send time 15799143.120158 wait 3964582.055849
+ LP 100 unmatched irecvs 0 unmatched sends 0 Total sends 1952 receives 1952 collectives 0 delays 4182 wait alls 72 waits 0 send time 15776594.745903 wait 3895040.735874
+ LP 101 unmatched irecvs 0 unmatched sends 0 Total sends 998 receives 998 collectives 0 delays 2252 wait alls 50 waits 0 send time 14902246.837563 wait 3948029.651950
+ LP 102 unmatched irecvs 0 unmatched sends 0 Total sends 1016 receives 1016 collectives 0 delays 2298 wait alls 60 waits 0 send time 11538458.275706 wait 3913452.907410
+ LP 108 unmatched irecvs 0 unmatched sends 0 Total sends 858 receives 858 collectives 0 delays 1982 wait alls 60 waits 0 send time 12396725.964072 wait 3886546.534227
+ LP 109 unmatched irecvs 0 unmatched sends 0 Total sends 1852 receives 1852 collectives 0 delays 3980 wait alls 70 waits 0 send time 19099001.530730 wait 3964647.361485
+ LP 110 unmatched irecvs 0 unmatched sends 0 Total sends 1036 receives 1036 collectives 0 delays 2328 wait alls 50 waits 0 send time 17988962.460077 wait 3908270.792717
+ LP 111 unmatched irecvs 0 unmatched sends 0 Total sends 1096 receives 1096 collectives 0 delays 2448 wait alls 50 waits 0 send time 17582972.687492 wait 3882601.366155
+ LP 117 unmatched irecvs 0 unmatched sends 0 Total sends 1508 receives 1508 collectives 0 delays 3282 wait alls 60 waits 0 send time 17480393.133917 wait 3901966.275392
+ LP 118 unmatched irecvs 0 unmatched sends 0 Total sends 704 receives 704 collectives 0 delays 1664 wait alls 50 waits 0 send time 9794552.067763 wait 3870265.034947
+ LP 119 unmatched irecvs 0 unmatched sends 0 Total sends 708 receives 708 collectives 0 delays 1672 wait alls 50 waits 0 send time 12260972.783505 wait 3860850.000632
+ LP 120 unmatched irecvs 0 unmatched sends 0 Total sends 1344 receives 1344 collectives 0 delays 2954 wait alls 60 waits 0 send time 17374743.792103 wait 3911588.574520
+ LP 126 unmatched irecvs 0 unmatched sends 0 Total sends 1614 receives 1614 collectives 0 delays 3494 wait alls 60 waits 0 send time 15364298.034245 wait 3904490.883856
+ LP 127 unmatched irecvs 0 unmatched sends 0 Total sends 1642 receives 1642 collectives 0 delays 3550 wait alls 60 waits 0 send time 15812372.747352 wait 3882275.559655
+ LP 128 unmatched irecvs 0 unmatched sends 0 Total sends 1346 receives 1346 collectives 0 delays 2958 wait alls 60 waits 0 send time 14498374.523610 wait 3895542.792319
+ LP 129 unmatched irecvs 0 unmatched sends 0 Total sends 1214 receives 1214 collectives 0 delays 2694 wait alls 60 waits 0 send time 10814782.771459 wait 3864548.453714
+ LP 135 unmatched irecvs 0 unmatched sends 0 Total sends 926 receives 926 collectives 0 delays 2118 wait alls 60 waits 0 send time 9992907.262470 wait 3843043.281240
+ LP 136 unmatched irecvs 0 unmatched sends 0 Total sends 954 receives 954 collectives 0 delays 2164 wait alls 50 waits 0 send time 13520748.730022 wait 3896332.041222
+ LP 137 unmatched irecvs 0 unmatched sends 0 Total sends 1460 receives 1460 collectives 0 delays 3196 wait alls 70 waits 0 send time 13573834.883240 wait 3848419.899270
+ LP 138 unmatched irecvs 0 unmatched sends 0 Total sends 1066 receives 1066 collectives 0 delays 2388 wait alls 50 waits 0 send time 14497530.762837 wait 3749633.478632
+ LP 144 unmatched irecvs 0 unmatched sends 0 Total sends 1752 receives 1752 collectives 0 delays 3776 wait alls 66 waits 0 send time 11951329.054491 wait 3798383.961375
+ LP 145 unmatched irecvs 0 unmatched sends 0 Total sends 1130 receives 1130 collectives 0 delays 2532 wait alls 66 waits 0 send time 7342426.492736 wait 3735396.051168
+ LP 146 unmatched irecvs 0 unmatched sends 0 Total sends 718 receives 718 collectives 0 delays 1698 wait alls 56 waits 0 send time 5094334.156718 wait 3806590.417598
+ LP 147 unmatched irecvs 0 unmatched sends 0 Total sends 670 receives 670 collectives 0 delays 1596 wait alls 50 waits 0 send time 7794541.728452 wait 3824001.323070
+ LP 153 unmatched irecvs 0 unmatched sends 0 Total sends 1562 receives 1562 collectives 0 delays 3396 wait alls 66 waits 0 send time 8957385.978422 wait 3785549.475283
+ LP 154 unmatched irecvs 0 unmatched sends 0 Total sends 780 receives 780 collectives 0 delays 1826 wait alls 60 waits 0 send time 6735836.994337 wait 3790636.738872
+ LP 155 unmatched irecvs 0 unmatched sends 0 Total sends 884 receives 884 collectives 0 delays 2034 wait alls 60 waits 0 send time 8347621.292129 wait 3758133.587617
+ LP 156 unmatched irecvs 0 unmatched sends 0 Total sends 704 receives 704 collectives 0 delays 1674 wait alls 60 waits 0 send time 5649179.312972 wait 3760709.401946
+ LP 162 unmatched irecvs 0 unmatched sends 0 Total sends 848 receives 848 collectives 0 delays 1968 wait alls 66 waits 0 send time 7852843.052990 wait 3841343.166877
+ LP 163 unmatched irecvs 0 unmatched sends 0 Total sends 1212 receives 1212 collectives 0 delays 2696 wait alls 66 waits 0 send time 10814779.086305 wait 3891044.708862
+ LP 164 unmatched irecvs 0 unmatched sends 0 Total sends 1194 receives 1194 collectives 0 delays 2660 wait alls 66 waits 0 send time 11380919.598325 wait 3872838.099437
+ LP 165 unmatched irecvs 0 unmatched sends 0 Total sends 682 receives 682 collectives 0 delays 1620 wait alls 50 waits 0 send time 10129300.032022 wait 3932874.546917
+ LP 171 unmatched irecvs 0 unmatched sends 0 Total sends 944 receives 944 collectives 0 delays 2154 wait alls 60 waits 0 send time 13057308.981358 wait 3988474.023985
+ LP 172 unmatched irecvs 0 unmatched sends 0 Total sends 602 receives 602 collectives 0 delays 1470 wait alls 60 waits 0 send time 8673105.192193 wait 3943208.750937
+ LP 173 unmatched irecvs 0 unmatched sends 0 Total sends 942 receives 942 collectives 0 delays 2150 wait alls 60 waits 0 send time 11881032.441644 wait 3895109.196698
+ LP 174 unmatched irecvs 0 unmatched sends 0 Total sends 968 receives 968 collectives 0 delays 2192 wait alls 50 waits 0 send time 16585137.708485 wait 4022392.399065
+ LP 180 unmatched irecvs 0 unmatched sends 0 Total sends 1024 receives 1024 collectives 0 delays 2304 wait alls 50 waits 0 send time 13904544.990393 wait 3955951.531413
+ LP 181 unmatched irecvs 0 unmatched sends 0 Total sends 1454 receives 1454 collectives 0 delays 3174 wait alls 60 waits 0 send time 15643445.059125 wait 3978712.895089
+ LP 182 unmatched irecvs 0 unmatched sends 0 Total sends 1544 receives 1544 collectives 0 delays 3354 wait alls 60 waits 0 send time 16791162.364458 wait 3978009.825838
+ LP 183 unmatched irecvs 0 unmatched sends 0 Total sends 1078 receives 1078 collectives 0 delays 2422 wait alls 60 waits 0 send time 11908146.358512 wait 3934411.614848
+ LP 189 unmatched irecvs 0 unmatched sends 0 Total sends 1054 receives 1054 collectives 0 delays 2374 wait alls 60 waits 0 send time 12455185.144668 wait 3912383.646479
+ LP 190 unmatched irecvs 0 unmatched sends 0 Total sends 1702 receives 1702 collectives 0 delays 3670 wait alls 60 waits 0 send time 18165358.894821 wait 3958211.558618
+ LP 191 unmatched irecvs 0 unmatched sends 0 Total sends 1096 receives 1096 collectives 0 delays 2448 wait alls 50 waits 0 send time 16966814.681288 wait 3926960.882626
+ LP 192 unmatched irecvs 0 unmatched sends 0 Total sends 1548 receives 1548 collectives 0 delays 3362 wait alls 60 waits 0 send time 17223359.971888 wait 3980886.228507
+ LP 198 unmatched irecvs 0 unmatched sends 0 Total sends 1014 receives 1014 collectives 0 delays 2284 wait alls 50 waits 0 send time 15419263.626874 wait 3958784.391543
+ LP 199 unmatched irecvs 0 unmatched sends 0 Total sends 1390 receives 1390 collectives 0 delays 3056 wait alls 70 waits 0 send time 12530668.547745 wait 3922216.795207
+ LP 200 unmatched irecvs 0 unmatched sends 0 Total sends 1628 receives 1628 collectives 0 delays 3534 wait alls 72 waits 0 send time 13941322.385509 wait 3904791.334431
+ LP 201 unmatched irecvs 0 unmatched sends 0 Total sends 1666 receives 1666 collectives 0 delays 3598 wait alls 60 waits 0 send time 19886055.789766 wait 3902609.882422
+ LP 207 unmatched irecvs 0 unmatched sends 0 Total sends 1722 receives 1722 collectives 0 delays 3710 wait alls 60 waits 0 send time 16670881.536598 wait 3873420.564798
+ LP 208 unmatched irecvs 0 unmatched sends 0 Total sends 1458 receives 1458 collectives 0 delays 3182 wait alls 60 waits 0 send time 17865658.420500 wait 3875545.078888
+ LP 209 unmatched irecvs 0 unmatched sends 0 Total sends 1538 receives 1538 collectives 0 delays 3342 wait alls 60 waits 0 send time 16117608.630103 wait 3868533.668715
+ LP 210 unmatched irecvs 0 unmatched sends 0 Total sends 740 receives 740 collectives 0 delays 1736 wait alls 50 waits 0 send time 11120904.695399 wait 3870380.177578
+ LP 216 unmatched irecvs 0 unmatched sends 0 Total sends 992 receives 992 collectives 0 delays 2250 wait alls 60 waits 0 send time 8484480.937928 wait 3825713.189918
+ LP 217 unmatched irecvs 0 unmatched sends 0 Total sends 1456 receives 1456 collectives 0 delays 3178 wait alls 60 waits 0 send time 11236064.814785 wait 3901761.494340
+ LP 218 unmatched irecvs 0 unmatched sends 0 Total sends 1050 receives 1050 collectives 0 delays 2356 wait alls 50 waits 0 send time 11752256.310557 wait 3804497.601632
+ LP 219 unmatched irecvs 0 unmatched sends 0 Total sends 1584 receives 1584 collectives 0 delays 3434 wait alls 60 waits 0 send time 11987270.662979 wait 3888630.390584
+ LP 225 unmatched irecvs 0 unmatched sends 0 Total sends 1012 receives 1012 collectives 0 delays 2280 wait alls 50 waits 0 send time 14790969.997112 wait 3820001.722890
+ LP 226 unmatched irecvs 0 unmatched sends 0 Total sends 1028 receives 1028 collectives 0 delays 2322 wait alls 60 waits 0 send time 11705536.409950 wait 3876626.282349
+ LP 227 unmatched irecvs 0 unmatched sends 0 Total sends 822 receives 822 collectives 0 delays 1910 wait alls 60 waits 0 send time 6483863.890603 wait 3689819.657377
+ LP 228 unmatched irecvs 0 unmatched sends 0 Total sends 724 receives 724 collectives 0 delays 1704 wait alls 50 waits 0 send time 10126997.408003 wait 3817556.838808
+ LP 234 unmatched irecvs 0 unmatched sends 0 Total sends 1170 receives 1170 collectives 0 delays 2606 wait alls 60 waits 0 send time 8402214.816451 wait 3824308.694326
+ LP 235 unmatched irecvs 0 unmatched sends 0 Total sends 1080 receives 1080 collectives 0 delays 2426 wait alls 60 waits 0 send time 6713057.254111 wait 3762374.263712
+ LP 236 unmatched irecvs 0 unmatched sends 0 Total sends 1034 receives 1034 collectives 0 delays 2340 wait alls 66 waits 0 send time 8018230.653790 wait 3830603.207273
+ LP 237 unmatched irecvs 0 unmatched sends 0 Total sends 736 receives 736 collectives 0 delays 1738 wait alls 60 waits 0 send time 5171171.028888 wait 3852845.590153
+ LP 243 unmatched irecvs 0 unmatched sends 0 Total sends 748 receives 748 collectives 0 delays 1762 wait alls 60 waits 0 send time 8915781.784577 wait 3829885.154952
+ LP 244 unmatched irecvs 0 unmatched sends 0 Total sends 1266 receives 1266 collectives 0 delays 2798 wait alls 60 waits 0 send time 13034786.461505 wait 3896675.423204
+ LP 245 unmatched irecvs 0 unmatched sends 0 Total sends 882 receives 882 collectives 0 delays 2030 wait alls 60 waits 0 send time 11201949.390545 wait 3881131.661728
+ LP 246 unmatched irecvs 0 unmatched sends 0 Total sends 884 receives 884 collectives 0 delays 2034 wait alls 60 waits 0 send time 10730994.007032 wait 3891774.705671
+ LP 252 unmatched irecvs 0 unmatched sends 0 Total sends 1132 receives 1132 collectives 0 delays 2530 wait alls 60 waits 0 send time 15183425.861524 wait 4001354.998987
+ LP 253 unmatched irecvs 0 unmatched sends 0 Total sends 496 receives 496 collectives 0 delays 1248 wait alls 50 waits 0 send time 9502895.747660 wait 3958865.787517
+ LP 254 unmatched irecvs 0 unmatched sends 0 Total sends 668 receives 668 collectives 0 delays 1592 wait alls 50 waits 0 send time 13106635.515994 wait 3906374.079900
+ LP 255 unmatched irecvs 0 unmatched sends 0 Total sends 1482 receives 1482 collectives 0 delays 3230 wait alls 60 waits 0 send time 19108577.712769 wait 3980951.917408
+ LP 261 unmatched irecvs 0 unmatched sends 0 Total sends 1732 receives 1732 collectives 0 delays 3730 wait alls 60 waits 0 send time 17229492.601544 wait 3899016.321493
+ LP 262 unmatched irecvs 0 unmatched sends 0 Total sends 2020 receives 2020 collectives 0 delays 4316 wait alls 70 waits 0 send time 15619539.767934 wait 3987567.671339
+ LP 263 unmatched irecvs 0 unmatched sends 0 Total sends 1038 receives 1038 collectives 0 delays 2332 wait alls 50 waits 0 send time 15894854.335898 wait 3976286.178945
+ LP 264 unmatched irecvs 0 unmatched sends 0 Total sends 854 receives 854 collectives 0 delays 1974 wait alls 60 waits 0 send time 11944734.606007 wait 3950573.524194
+ LP 270 unmatched irecvs 0 unmatched sends 0 Total sends 1318 receives 1318 collectives 0 delays 2912 wait alls 70 waits 0 send time 13910626.832401 wait 3927378.586200
+ LP 271 unmatched irecvs 0 unmatched sends 0 Total sends 1494 receives 1494 collectives 0 delays 3254 wait alls 60 waits 0 send time 19061327.253649 wait 3934962.698624
+ LP 272 unmatched irecvs 0 unmatched sends 0 Total sends 1114 receives 1114 collectives 0 delays 2484 wait alls 50 waits 0 send time 17568527.085437 wait 3929017.365143
+ LP 273 unmatched irecvs 0 unmatched sends 0 Total sends 1504 receives 1504 collectives 0 delays 3274 wait alls 60 waits 0 send time 19065000.324136 wait 3868599.645795
+ LP 279 unmatched irecvs 0 unmatched sends 0 Total sends 1284 receives 1284 collectives 0 delays 2834 wait alls 60 waits 0 send time 16858038.970870 wait 3883513.893910
+ LP 280 unmatched irecvs 0 unmatched sends 0 Total sends 962 receives 962 collectives 0 delays 2190 wait alls 60 waits 0 send time 10517027.907945 wait 3886902.209908
+ LP 281 unmatched irecvs 0 unmatched sends 0 Total sends 772 receives 772 collectives 0 delays 1800 wait alls 50 waits 0 send time 10840303.588336 wait 3881472.929782
+ LP 282 unmatched irecvs 0 unmatched sends 0 Total sends 1444 receives 1444 collectives 0 delays 3154 wait alls 60 waits 0 send time 16534628.944755 wait 3941915.781983
+ LP 288 unmatched irecvs 0 unmatched sends 0 Total sends 1086 receives 1086 collectives 0 delays 2428 wait alls 50 waits 0 send time 13921224.714397 wait 3858941.105947
+ LP 289 unmatched irecvs 0 unmatched sends 0 Total sends 1474 receives 1474 collectives 0 delays 3214 wait alls 60 waits 0 send time 13320497.425426 wait 3894082.382978
+ LP 290 unmatched irecvs 0 unmatched sends 0 Total sends 1666 receives 1666 collectives 0 delays 3598 wait alls 60 waits 0 send time 12748111.907685 wait 3890136.144865
+ LP 291 unmatched irecvs 0 unmatched sends 0 Total sends 1270 receives 1270 collectives 0 delays 2806 wait alls 60 waits 0 send time 9479951.598171 wait 3889701.517620
+ LP 297 unmatched irecvs 0 unmatched sends 0 Total sends 1168 receives 1168 collectives 0 delays 2602 wait alls 60 waits 0 send time 8974180.812456 wait 3804783.516600
+ LP 298 unmatched irecvs 0 unmatched sends 0 Total sends 1854 receives 1854 collectives 0 delays 3984 wait alls 70 waits 0 send time 11860495.414026 wait 3828954.359300
+ LP 299 unmatched irecvs 0 unmatched sends 0 Total sends 1530 receives 1530 collectives 0 delays 3326 wait alls 60 waits 0 send time 12711918.501013 wait 3829558.113582
+ LP 300 unmatched irecvs 0 unmatched sends 0 Total sends 1688 receives 1688 collectives 0 delays 3642 wait alls 60 waits 0 send time 12409645.823275 wait 3794599.355228
+ LP 306 unmatched irecvs 0 unmatched sends 0 Total sends 1006 receives 1006 collectives 0 delays 2268 wait alls 50 waits 0 send time 12294237.696968 wait 3840752.838671
+ LP 307 unmatched irecvs 0 unmatched sends 0 Total sends 1182 receives 1182 collectives 0 delays 2630 wait alls 60 waits 0 send time 7801351.593613 wait 3861415.402030
+ LP 308 unmatched irecvs 0 unmatched sends 0 Total sends 774 receives 774 collectives 0 delays 1814 wait alls 60 waits 0 send time 6057416.156333 wait 3751645.638519
+ LP 309 unmatched irecvs 0 unmatched sends 0 Total sends 1064 receives 1064 collectives 0 delays 2394 wait alls 60 waits 0 send time 8849736.905012 wait 3831108.163590
+ LP 315 unmatched irecvs 0 unmatched sends 0 Total sends 676 receives 676 collectives 0 delays 1608 wait alls 50 waits 0 send time 7233815.980847 wait 3762826.680584
+ LP 316 unmatched irecvs 0 unmatched sends 0 Total sends 1082 receives 1082 collectives 0 delays 2430 wait alls 60 waits 0 send time 6601175.727039 wait 3759744.332303
+ LP 317 unmatched irecvs 0 unmatched sends 0 Total sends 958 receives 958 collectives 0 delays 2182 wait alls 60 waits 0 send time 6997753.530288 wait 3777503.322189
+ LP 318 unmatched irecvs 0 unmatched sends 0 Total sends 544 receives 544 collectives 0 delays 1350 wait alls 56 waits 0 send time 4801247.214800 wait 3741816.068215
+ LP 324 unmatched irecvs 0 unmatched sends 0 Total sends 942 receives 942 collectives 0 delays 2156 wait alls 66 waits 0 send time 7133833.045247 wait 3868935.395352
+ LP 325 unmatched irecvs 0 unmatched sends 0 Total sends 754 receives 754 collectives 0 delays 1774 wait alls 60 waits 0 send time 9605508.451798 wait 3927835.167438
+ LP 326 unmatched irecvs 0 unmatched sends 0 Total sends 1178 receives 1178 collectives 0 delays 2622 wait alls 60 waits 0 send time 9672899.870508 wait 3830793.540130
+ LP 327 unmatched irecvs 0 unmatched sends 0 Total sends 682 receives 682 collectives 0 delays 1620 wait alls 50 waits 0 send time 8426360.179436 wait 3904147.764773
+ LP 333 unmatched irecvs 0 unmatched sends 0 Total sends 930 receives 930 collectives 0 delays 2126 wait alls 60 waits 0 send time 11528195.936826 wait 3965596.214475
+ LP 334 unmatched irecvs 0 unmatched sends 0 Total sends 748 receives 748 collectives 0 delays 1762 wait alls 60 waits 0 send time 6918848.892754 wait 3918677.821510
+ LP 335 unmatched irecvs 0 unmatched sends 0 Total sends 904 receives 904 collectives 0 delays 2074 wait alls 60 waits 0 send time 11069644.554405 wait 3910414.208844
+ LP 336 unmatched irecvs 0 unmatched sends 0 Total sends 1574 receives 1574 collectives 0 delays 3420 wait alls 66 waits 0 send time 16561672.311842 wait 3973966.335532
+ LP 342 unmatched irecvs 0 unmatched sends 0 Total sends 1064 receives 1064 collectives 0 delays 2384 wait alls 50 waits 0 send time 13363604.966010 wait 3951029.608902
+ LP 343 unmatched irecvs 0 unmatched sends 0 Total sends 1022 receives 1022 collectives 0 delays 2300 wait alls 50 waits 0 send time 13269552.675371 wait 3836776.698993
+ LP 344 unmatched irecvs 0 unmatched sends 0 Total sends 1392 receives 1392 collectives 0 delays 3050 wait alls 60 waits 0 send time 14012740.911604 wait 3957522.603650
+ LP 345 unmatched irecvs 0 unmatched sends 0 Total sends 732 receives 732 collectives 0 delays 1720 wait alls 50 waits 0 send time 9282984.484452 wait 3863245.393679
+ LP 351 unmatched irecvs 0 unmatched sends 0 Total sends 1096 receives 1096 collectives 0 delays 2458 wait alls 60 waits 0 send time 9856496.263048 wait 3869979.099921
+ LP 352 unmatched irecvs 0 unmatched sends 0 Total sends 1082 receives 1082 collectives 0 delays 2420 wait alls 50 waits 0 send time 14669940.735703 wait 3991509.153051
+ LP 353 unmatched irecvs 0 unmatched sends 0 Total sends 1540 receives 1540 collectives 0 delays 3346 wait alls 60 waits 0 send time 14711649.605492 wait 3861117.602478
+ LP 354 unmatched irecvs 0 unmatched sends 0 Total sends 1070 receives 1070 collectives 0 delays 2396 wait alls 50 waits 0 send time 13330531.059213 wait 3887602.288631
+ LP 360 unmatched irecvs 0 unmatched sends 0 Total sends 1070 receives 1070 collectives 0 delays 2396 wait alls 50 waits 0 send time 12602963.367980 wait 3908231.383462
+ LP 361 unmatched irecvs 0 unmatched sends 0 Total sends 1002 receives 1002 collectives 0 delays 2270 wait alls 60 waits 0 send time 8046699.270996 wait 3839305.145301
+ LP 362 unmatched irecvs 0 unmatched sends 0 Total sends 736 receives 736 collectives 0 delays 1728 wait alls 50 waits 0 send time 7903056.818426 wait 3855229.027919
+ LP 363 unmatched irecvs 0 unmatched sends 0 Total sends 972 receives 972 collectives 0 delays 2200 wait alls 50 waits 0 send time 11770570.618583 wait 3898524.449338
+ LP 369 unmatched irecvs 0 unmatched sends 0 Total sends 1762 receives 1762 collectives 0 delays 3790 wait alls 60 waits 0 send time 14593116.269819 wait 3866335.194789
+ LP 370 unmatched irecvs 0 unmatched sends 0 Total sends 1684 receives 1684 collectives 0 delays 3634 wait alls 60 waits 0 send time 14498619.009737 wait 3849975.084217
+ LP 371 unmatched irecvs 0 unmatched sends 0 Total sends 1410 receives 1410 collectives 0 delays 3086 wait alls 60 waits 0 send time 12475281.408806 wait 3872582.764169
+ LP 372 unmatched irecvs 0 unmatched sends 0 Total sends 948 receives 948 collectives 0 delays 2162 wait alls 60 waits 0 send time 7744035.862644 wait 3812818.679756
+ LP 378 unmatched irecvs 0 unmatched sends 0 Total sends 954 receives 954 collectives 0 delays 2174 wait alls 60 waits 0 send time 8629022.079408 wait 3808526.948751
+ LP 379 unmatched irecvs 0 unmatched sends 0 Total sends 1270 receives 1270 collectives 0 delays 2806 wait alls 60 waits 0 send time 10627487.866698 wait 3884013.608113
+ LP 380 unmatched irecvs 0 unmatched sends 0 Total sends 1506 receives 1506 collectives 0 delays 3278 wait alls 60 waits 0 send time 12902923.608999 wait 3831184.945858
+ LP 381 unmatched irecvs 0 unmatched sends 0 Total sends 980 receives 980 collectives 0 delays 2216 wait alls 50 waits 0 send time 11747212.861518 wait 3831206.408945
+ LP 387 unmatched irecvs 0 unmatched sends 0 Total sends 1702 receives 1702 collectives 0 delays 3676 wait alls 66 waits 0 send time 11306340.439972 wait 3842702.935136
+ LP 388 unmatched irecvs 0 unmatched sends 0 Total sends 846 receives 846 collectives 0 delays 1958 wait alls 60 waits 0 send time 6883218.940773 wait 3751576.885609
+ LP 389 unmatched irecvs 0 unmatched sends 0 Total sends 644 receives 644 collectives 0 delays 1554 wait alls 60 waits 0 send time 5122827.633423 wait 3790872.289080
+ LP 390 unmatched irecvs 0 unmatched sends 0 Total sends 898 receives 898 collectives 0 delays 2062 wait alls 60 waits 0 send time 7583810.194775 wait 3831801.898962
+ LP 396 unmatched irecvs 0 unmatched sends 0 Total sends 1394 receives 1394 collectives 0 delays 3066 wait alls 72 waits 0 send time 8270762.086018 wait 3755078.746284
+ LP 397 unmatched irecvs 0 unmatched sends 0 Total sends 1448 receives 1448 collectives 0 delays 3168 wait alls 66 waits 0 send time 7104672.531638 wait 3707446.871974
+ LP 398 unmatched irecvs 0 unmatched sends 0 Total sends 1090 receives 1090 collectives 0 delays 2446 wait alls 60 waits 0 send time 7694413.852076 wait 3759281.907257
+ LP 399 unmatched irecvs 0 unmatched sends 0 Total sends 964 receives 964 collectives 0 delays 2194 wait alls 60 waits 0 send time 5490334.455675 wait 3681833.641072
+ LP 405 unmatched irecvs 0 unmatched sends 0 Total sends 654 receives 654 collectives 0 delays 1574 wait alls 60 waits 0 send time 4265886.048633 wait 3799721.754737
+ LP 406 unmatched irecvs 0 unmatched sends 0 Total sends 654 receives 654 collectives 0 delays 1570 wait alls 56 waits 0 send time 5445748.430337 wait 3858265.892197
+ LP 407 unmatched irecvs 0 unmatched sends 0 Total sends 734 receives 734 collectives 0 delays 1730 wait alls 56 waits 0 send time 4963921.230908 wait 3819705.660493
+ LP 408 unmatched irecvs 0 unmatched sends 0 Total sends 1032 receives 1032 collectives 0 delays 2340 wait alls 70 waits 0 send time 5668483.570286 wait 3840150.420206
+ LP 414 unmatched irecvs 0 unmatched sends 0 Total sends 778 receives 778 collectives 0 delays 1828 wait alls 66 waits 0 send time 6100676.439855 wait 3987688.064545
+ LP 415 unmatched irecvs 0 unmatched sends 0 Total sends 726 receives 726 collectives 0 delays 1724 wait alls 66 waits 0 send time 3737658.080341 wait 3853688.825912
+ LP 416 unmatched irecvs 0 unmatched sends 0 Total sends 784 receives 784 collectives 0 delays 1836 wait alls 62 waits 0 send time 6269908.649559 wait 3893067.816091
+ LP 417 unmatched irecvs 0 unmatched sends 0 Total sends 1380 receives 1380 collectives 0 delays 3036 wait alls 70 waits 0 send time 9233161.913627 wait 3998643.246050
+ LP 423 unmatched irecvs 0 unmatched sends 0 Total sends 690 receives 690 collectives 0 delays 1636 wait alls 50 waits 0 send time 8413165.248724 wait 3819511.974673
+ LP 424 unmatched irecvs 0 unmatched sends 0 Total sends 682 receives 682 collectives 0 delays 1620 wait alls 50 waits 0 send time 7544889.322672 wait 3871156.872911
+ LP 425 unmatched irecvs 0 unmatched sends 0 Total sends 1206 receives 1206 collectives 0 delays 2678 wait alls 60 waits 0 send time 7844298.501762 wait 3863386.699942
+ LP 426 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 0 delays 1722 wait alls 60 waits 0 send time 5222678.220125 wait 3854446.871949
+ LP 432 unmatched irecvs 0 unmatched sends 0 Total sends 722 receives 722 collectives 0 delays 1710 wait alls 60 waits 0 send time 5781611.437310 wait 3856891.527288
+ LP 433 unmatched irecvs 0 unmatched sends 0 Total sends 1064 receives 1064 collectives 0 delays 2394 wait alls 60 waits 0 send time 9804820.445987 wait 3862501.617263
+ LP 434 unmatched irecvs 0 unmatched sends 0 Total sends 972 receives 972 collectives 0 delays 2210 wait alls 60 waits 0 send time 9628240.625023 wait 3854075.011857
+ LP 435 unmatched irecvs 0 unmatched sends 0 Total sends 1156 receives 1156 collectives 0 delays 2578 wait alls 60 waits 0 send time 8239406.325036 wait 3819962.118657
+ LP 441 unmatched irecvs 0 unmatched sends 0 Total sends 788 receives 788 collectives 0 delays 1842 wait alls 60 waits 0 send time 9094130.979753 wait 3911900.876396
+ LP 442 unmatched irecvs 0 unmatched sends 0 Total sends 884 receives 884 collectives 0 delays 2034 wait alls 60 waits 0 send time 6816759.914162 wait 3871489.771809
+ LP 443 unmatched irecvs 0 unmatched sends 0 Total sends 950 receives 950 collectives 0 delays 2166 wait alls 60 waits 0 send time 6144451.701264 wait 3752033.495234
+ LP 444 unmatched irecvs 0 unmatched sends 0 Total sends 1086 receives 1086 collectives 0 delays 2438 wait alls 60 waits 0 send time 8433027.142809 wait 3914366.431956
+ LP 450 unmatched irecvs 0 unmatched sends 0 Total sends 1188 receives 1188 collectives 0 delays 2652 wait alls 70 waits 0 send time 8894251.309452 wait 3889827.347294
+ LP 451 unmatched irecvs 0 unmatched sends 0 Total sends 1102 receives 1102 collectives 0 delays 2470 wait alls 60 waits 0 send time 8443411.612493 wait 3878933.797607
+ LP 452 unmatched irecvs 0 unmatched sends 0 Total sends 1612 receives 1612 collectives 0 delays 3502 wait alls 72 waits 0 send time 9938302.997221 wait 3823052.185903
+ LP 453 unmatched irecvs 0 unmatched sends 0 Total sends 694 receives 694 collectives 0 delays 1654 wait alls 60 waits 0 send time 5496291.217540 wait 3871319.109668
+ LP 459 unmatched irecvs 0 unmatched sends 0 Total sends 934 receives 934 collectives 0 delays 2140 wait alls 66 waits 0 send time 4930921.468502 wait 3859990.975259
+ LP 460 unmatched irecvs 0 unmatched sends 0 Total sends 896 receives 896 collectives 0 delays 2058 wait alls 60 waits 0 send time 6864079.434473 wait 3793199.808209
+ LP 461 unmatched irecvs 0 unmatched sends 0 Total sends 1174 receives 1174 collectives 0 delays 2614 wait alls 60 waits 0 send time 7319759.610479 wait 3867523.871268
+ LP 462 unmatched irecvs 0 unmatched sends 0 Total sends 804 receives 804 collectives 0 delays 1874 wait alls 60 waits 0 send time 6999938.768739 wait 3843104.477286
+ LP 468 unmatched irecvs 0 unmatched sends 0 Total sends 970 receives 970 collectives 0 delays 2206 wait alls 60 waits 0 send time 7700278.528277 wait 3845972.585338
+ LP 469 unmatched irecvs 0 unmatched sends 0 Total sends 606 receives 606 collectives 0 delays 1478 wait alls 60 waits 0 send time 4483637.045853 wait 3776343.272020
+ LP 470 unmatched irecvs 0 unmatched sends 0 Total sends 464 receives 464 collectives 0 delays 1190 wait alls 56 waits 0 send time 3639693.183011 wait 3684471.935603
+ LP 471 unmatched irecvs 0 unmatched sends 0 Total sends 736 receives 736 collectives 0 delays 1744 wait alls 66 waits 0 send time 5589420.605685 wait 3796894.273039
+ LP 477 unmatched irecvs 0 unmatched sends 0 Total sends 866 receives 866 collectives 0 delays 1998 wait alls 60 waits 0 send time 5005498.374232 wait 3789784.980990
+ LP 478 unmatched irecvs 0 unmatched sends 0 Total sends 776 receives 776 collectives 0 delays 1818 wait alls 60 waits 0 send time 4068856.324149 wait 3731256.021825
+ LP 479 unmatched irecvs 0 unmatched sends 0 Total sends 576 receives 576 collectives 0 delays 1418 wait alls 60 waits 0 send time 4226167.395951 wait 3752222.900267
+ LP 480 unmatched irecvs 0 unmatched sends 0 Total sends 468 receives 468 collectives 0 delays 1198 wait alls 56 waits 0 send time 2799090.139801 wait 3733695.553475
+ LP 486 unmatched irecvs 0 unmatched sends 0 Total sends 1144 receives 1144 collectives 12 delays 2445 wait alls 0 waits 0 send time 28731681.273477 wait 0.000000
+ LP 487 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2160 wait alls 0 waits 0 send time 27086146.493370 wait 0.000000
+ LP 488 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2200 wait alls 0 waits 0 send time 24242097.647088 wait 0.000000
+ LP 489 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2148 wait alls 0 waits 0 send time 23057181.497343 wait 0.000000
+ LP 495 unmatched irecvs 0 unmatched sends 0 Total sends 1144 receives 1144 collectives 12 delays 2445 wait alls 0 waits 0 send time 29444700.419798 wait 0.000000
+ LP 496 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2165 wait alls 0 waits 0 send time 25384779.737412 wait 0.000000
+ LP 497 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2203 wait alls 0 waits 0 send time 25841713.825231 wait 0.000000
+ LP 498 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2155 wait alls 0 waits 0 send time 23773904.146165 wait 0.000000
+ LP 504 unmatched irecvs 0 unmatched sends 0 Total sends 1144 receives 1144 collectives 12 delays 2436 wait alls 0 waits 0 send time 39333285.249576 wait 0.000000
+ LP 505 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1771 wait alls 0 waits 0 send time 31066920.972608 wait 0.000000
+ LP 506 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1827 wait alls 0 waits 0 send time 29160920.608265 wait 0.000000
+ LP 507 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1842 wait alls 0 waits 0 send time 29931065.736949 wait 0.000000
+ LP 513 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1871 wait alls 0 waits 0 send time 25590424.830293 wait 0.000000
+ LP 514 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1822 wait alls 0 waits 0 send time 32077080.332987 wait 0.000000
+ LP 515 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2168 wait alls 0 waits 0 send time 34367925.498081 wait 0.000000
+ LP 516 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1857 wait alls 0 waits 0 send time 27102200.575091 wait 0.000000
+ LP 522 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2217 wait alls 0 waits 0 send time 35169360.882291 wait 0.000000
+ LP 523 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1727 wait alls 0 waits 0 send time 27749584.254489 wait 0.000000
+ LP 524 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1836 wait alls 0 waits 0 send time 27290017.871626 wait 0.000000
+ LP 525 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2179 wait alls 0 waits 0 send time 32691647.711739 wait 0.000000
+ LP 531 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2211 wait alls 0 waits 0 send time 33917811.514613 wait 0.000000
+ LP 532 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1808 wait alls 0 waits 0 send time 30923339.470513 wait 0.000000
+ LP 533 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2165 wait alls 0 waits 0 send time 35593165.204149 wait 0.000000
+ LP 534 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2192 wait alls 0 waits 0 send time 37499536.777983 wait 0.000000
+ LP 540 unmatched irecvs 0 unmatched sends 0 Total sends 1144 receives 1144 collectives 12 delays 2454 wait alls 0 waits 0 send time 37607447.282681 wait 0.000000
+ LP 541 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2211 wait alls 0 waits 0 send time 39420531.272303 wait 0.000000
+ LP 542 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2235 wait alls 0 waits 0 send time 50267221.527752 wait 0.000000
+ LP 543 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2182 wait alls 0 waits 0 send time 45144841.688866 wait 0.000000
+ LP 549 unmatched irecvs 0 unmatched sends 0 Total sends 1144 receives 1144 collectives 12 delays 2481 wait alls 0 waits 0 send time 45411660.755774 wait 0.000000
+ LP 550 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1735 wait alls 0 waits 0 send time 35119943.312240 wait 0.000000
+ LP 551 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1760 wait alls 0 waits 0 send time 34536116.621983 wait 0.000000
+ LP 552 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1821 wait alls 0 waits 0 send time 33437236.484993 wait 0.000000
+ LP 558 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1874 wait alls 0 waits 0 send time 32516868.974668 wait 0.000000
+ LP 559 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1763 wait alls 0 waits 0 send time 32854096.858807 wait 0.000000
+ LP 560 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2243 wait alls 0 waits 0 send time 41862845.516022 wait 0.000000
+ LP 561 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1874 wait alls 0 waits 0 send time 37873162.767331 wait 0.000000
+ LP 567 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2203 wait alls 0 waits 0 send time 35072055.421770 wait 0.000000
+ LP 568 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1793 wait alls 0 waits 0 send time 30978437.967052 wait 0.000000
+ LP 569 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1778 wait alls 0 waits 0 send time 31603630.313957 wait 0.000000
+ LP 570 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2192 wait alls 0 waits 0 send time 36584972.540179 wait 0.000000
+ LP 576 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2203 wait alls 0 waits 0 send time 40354666.629133 wait 0.000000
+ LP 577 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1747 wait alls 0 waits 0 send time 31710484.722832 wait 0.000000
+ LP 578 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2183 wait alls 0 waits 0 send time 35227511.972171 wait 0.000000
+ LP 579 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2187 wait alls 0 waits 0 send time 37328344.367776 wait 0.000000
+ LP 585 unmatched irecvs 0 unmatched sends 0 Total sends 1144 receives 1144 collectives 12 delays 2485 wait alls 0 waits 0 send time 41614373.724750 wait 0.000000
+ LP 586 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1778 wait alls 0 waits 0 send time 28817057.073469 wait 0.000000
+ LP 587 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1764 wait alls 0 waits 0 send time 29737578.860617 wait 0.000000
+ LP 588 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1792 wait alls 0 waits 0 send time 28087104.433277 wait 0.000000
+ LP 594 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1980 wait alls 0 waits 0 send time 26844068.286607 wait 0.000000
+ LP 595 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1885 wait alls 0 waits 0 send time 31485437.973606 wait 0.000000
+ LP 596 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2423 wait alls 0 waits 0 send time 39539316.236061 wait 0.000000
+ LP 597 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1959 wait alls 0 waits 0 send time 26402110.871502 wait 0.000000
+ LP 603 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2474 wait alls 0 waits 0 send time 39902756.084658 wait 0.000000
+ LP 604 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1883 wait alls 0 waits 0 send time 31037542.569702 wait 0.000000
+ LP 605 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1934 wait alls 0 waits 0 send time 31430804.710159 wait 0.000000
+ LP 606 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2407 wait alls 0 waits 0 send time 41167878.972955 wait 0.000000
+ LP 612 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2460 wait alls 0 waits 0 send time 39755420.320048 wait 0.000000
+ LP 613 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1917 wait alls 0 waits 0 send time 27625393.469219 wait 0.000000
+ LP 614 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2443 wait alls 0 waits 0 send time 39649756.961866 wait 0.000000
+ LP 615 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2424 wait alls 0 waits 0 send time 33970633.790731 wait 0.000000
+ LP 621 unmatched irecvs 0 unmatched sends 0 Total sends 1144 receives 1144 collectives 12 delays 2826 wait alls 0 waits 0 send time 49977605.690534 wait 0.000000
+ LP 622 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 832 wait alls 0 waits 0 send time 22933350.130429 wait 0.000000
+ LP 623 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 849 wait alls 0 waits 0 send time 18852084.606783 wait 0.000000
+ LP 624 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 835 wait alls 0 waits 0 send time 19259346.253528 wait 0.000000
+ LP 630 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 839 wait alls 0 waits 0 send time 19719449.920814 wait 0.000000
+ LP 631 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 839 wait alls 0 waits 0 send time 20043218.753944 wait 0.000000
+ LP 632 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 856 wait alls 0 waits 0 send time 19788953.804129 wait 0.000000
+ LP 633 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 874 wait alls 0 waits 0 send time 18679371.239809 wait 0.000000
+ LP 639 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 873 wait alls 0 waits 0 send time 20511630.867313 wait 0.000000
+ LP 640 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 825 wait alls 0 waits 0 send time 21037033.454739 wait 0.000000
+ LP 641 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1869 wait alls 0 waits 0 send time 31845057.136032 wait 0.000000
+ LP 642 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 825 wait alls 0 waits 0 send time 20355515.681858 wait 0.000000
+ LP 648 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1878 wait alls 0 waits 0 send time 29314208.215222 wait 0.000000
+ LP 649 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 848 wait alls 0 waits 0 send time 17674034.818442 wait 0.000000
+ LP 650 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1856 wait alls 0 waits 0 send time 26843178.934538 wait 0.000000
+ LP 651 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 878 wait alls 0 waits 0 send time 17924020.975652 wait 0.000000
+ LP 657 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1926 wait alls 0 waits 0 send time 32737930.520097 wait 0.000000
+ LP 658 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 828 wait alls 0 waits 0 send time 23680402.540597 wait 0.000000
+ LP 659 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 854 wait alls 0 waits 0 send time 18484771.492782 wait 0.000000
+ LP 660 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1869 wait alls 0 waits 0 send time 28300634.030224 wait 0.000000
+ LP 666 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1933 wait alls 0 waits 0 send time 27460455.516476 wait 0.000000
+ LP 667 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 833 wait alls 0 waits 0 send time 24413584.031131 wait 0.000000
+ LP 668 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 870 wait alls 0 waits 0 send time 21325090.730287 wait 0.000000
+ LP 669 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1880 wait alls 0 waits 0 send time 33603927.780440 wait 0.000000
+ LP 675 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1998 wait alls 0 waits 0 send time 33399793.352455 wait 0.000000
+ LP 676 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 851 wait alls 0 waits 0 send time 20112096.959498 wait 0.000000
+ LP 677 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1872 wait alls 0 waits 0 send time 28637690.366116 wait 0.000000
+ LP 678 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1919 wait alls 0 waits 0 send time 28297532.221838 wait 0.000000
+ LP 684 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2551 wait alls 0 waits 0 send time 36810951.449601 wait 0.000000
+ LP 685 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 835 wait alls 0 waits 0 send time 15806202.964313 wait 0.000000
+ LP 686 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1896 wait alls 0 waits 0 send time 35699817.688852 wait 0.000000
+ LP 687 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1977 wait alls 0 waits 0 send time 35069039.606475 wait 0.000000
+ LP 693 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2511 wait alls 0 waits 0 send time 54780704.228412 wait 0.000000
+ LP 694 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 809 wait alls 0 waits 0 send time 23996757.971848 wait 0.000000
+ LP 695 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 820 wait alls 0 waits 0 send time 21384946.934401 wait 0.000000
+ LP 696 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 833 wait alls 0 waits 0 send time 21266750.923272 wait 0.000000
+ LP 702 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 881 wait alls 0 waits 0 send time 20680556.564233 wait 0.000000
+ LP 703 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1794 wait alls 0 waits 0 send time 26835439.548162 wait 0.000000
+ LP 704 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1809 wait alls 0 waits 0 send time 30056146.000301 wait 0.000000
+ LP 705 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1831 wait alls 0 waits 0 send time 29619141.857657 wait 0.000000
+ LP 711 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1911 wait alls 0 waits 0 send time 28947147.447810 wait 0.000000
+ LP 712 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 817 wait alls 0 waits 0 send time 18882116.246926 wait 0.000000
+ LP 713 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1774 wait alls 0 waits 0 send time 33960756.178865 wait 0.000000
+ LP 714 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 856 wait alls 0 waits 0 send time 20132916.756528 wait 0.000000
+ LP 720 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1836 wait alls 0 waits 0 send time 31912661.876950 wait 0.000000
+ LP 721 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1857 wait alls 0 waits 0 send time 23376252.437217 wait 0.000000
+ LP 722 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2355 wait alls 0 waits 0 send time 29486398.933091 wait 0.000000
+ LP 723 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1853 wait alls 0 waits 0 send time 29917611.567642 wait 0.000000
+ LP 729 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2384 wait alls 0 waits 0 send time 35990179.578842 wait 0.000000
+ LP 730 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 839 wait alls 0 waits 0 send time 17606955.716396 wait 0.000000
+ LP 731 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 854 wait alls 0 waits 0 send time 15191011.377687 wait 0.000000
+ LP 732 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1820 wait alls 0 waits 0 send time 30277839.854742 wait 0.000000
+ LP 738 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1870 wait alls 0 waits 0 send time 30569393.700650 wait 0.000000
+ LP 739 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1879 wait alls 0 waits 0 send time 34612733.223877 wait 0.000000
+ LP 740 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1886 wait alls 0 waits 0 send time 33417952.745214 wait 0.000000
+ LP 741 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2429 wait alls 0 waits 0 send time 29795851.107940 wait 0.000000
+ LP 747 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2454 wait alls 0 waits 0 send time 34773999.545103 wait 0.000000
+ LP 748 unmatched irecvs 0 unmatched sends 0 Total sends 312 receives 312 collectives 12 delays 872 wait alls 0 waits 0 send time 15540734.140275 wait 0.000000
+ LP 749 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1814 wait alls 0 waits 0 send time 26323238.673251 wait 0.000000
+ LP 750 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 1905 wait alls 0 waits 0 send time 29350283.920707 wait 0.000000
+ LP 756 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2577 wait alls 0 waits 0 send time 40371109.191730 wait 0.000000
+ LP 757 unmatched irecvs 0 unmatched sends 0 Total sends 728 receives 728 collectives 12 delays 2060 wait alls 0 waits 0 send time 23424782.938529 wait 0.000000
+ LP 758 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2596 wait alls 0 waits 0 send time 27784525.144207 wait 0.000000
+ LP 759 unmatched irecvs 0 unmatched sends 0 Total sends 988 receives 988 collectives 12 delays 2747 wait alls 0 waits 0 send time 28056977.608185 wait 0.000000
+ LP 765 unmatched irecvs 0 unmatched sends 0 Total sends 1144 receives 1144 collectives 12 delays 3052 wait alls 0 waits 0 send time 41474021.277181 wait 0.000000
+ LP 766 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 124399607.560825 wait 173421121.621301
+ LP 767 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 127190694.929139 wait 173415966.559668
+ LP 768 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 126865152.083428 wait 173412500.172858
+ LP 774 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 139002585.934564 wait 173464175.615641
+ LP 775 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 32000 collectives 0 delays 87999 wait alls 28000 waits 0 send time 132931190.528814 wait 173371215.060211
+ LP 776 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 122488339.228657 wait 173452660.283468
+ LP 777 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 24000 collectives 0 delays 71999 wait alls 24000 waits 0 send time 101497243.856959 wait 173528094.018866
+ LP 783 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 32000 collectives 0 delays 87999 wait alls 28000 waits 0 send time 142832250.644504 wait 173365807.210957
+ LP 784 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 128263777.989188 wait 173449877.993764
+ LP 785 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 28000 collectives 0 delays 75999 wait alls 24000 waits 0 send time 104556759.399230 wait 173478405.124542
+ LP 786 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 134569911.052517 wait 173403906.079933
+ LP 792 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 125995921.677882 wait 173452405.242154
+ LP 793 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 24000 collectives 0 delays 71999 wait alls 24000 waits 0 send time 92961601.542951 wait 173519655.563451
+ LP 794 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 32000 collectives 0 delays 87999 wait alls 28000 waits 0 send time 134776534.384601 wait 173371097.661277
+ LP 795 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 127296852.359328 wait 173455925.702877
+ LP 801 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 28000 collectives 0 delays 75999 wait alls 24000 waits 0 send time 98414276.995982 wait 173486517.255803
+ LP 802 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 117925898.799334 wait 173409552.311132
+ LP 803 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 119399285.780224 wait 173450932.298383
+ LP 804 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 28000 collectives 0 delays 75999 wait alls 24000 waits 0 send time 99909324.068527 wait 173485312.071002
+ LP 810 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 120423149.215145 wait 173412145.162314
+ LP 811 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 125501366.774788 wait 173450226.219827
+ LP 812 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 28000 collectives 0 delays 75999 wait alls 24000 waits 0 send time 128278771.395198 wait 173483067.079985
+ LP 813 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 138536882.157941 wait 173405996.042428
+ LP 819 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 111701317.538949 wait 173452555.174065
+ LP 820 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 28000 collectives 0 delays 75999 wait alls 24000 waits 0 send time 112029541.319634 wait 173485181.557254
+ LP 821 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 95588580.445986 wait 173412803.657786
+ LP 822 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 124903294.287636 wait 173412772.858736
+ LP 828 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 130121620.863427 wait 173407631.762055
+ LP 829 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 113641041.180663 wait 173455017.381281
+ LP 830 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 32000 collectives 0 delays 87999 wait alls 28000 waits 0 send time 139128754.006755 wait 173362386.633150
+ LP 831 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 121005849.251904 wait 173450296.433130
+ LP 837 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 24000 collectives 0 delays 71999 wait alls 24000 waits 0 send time 105432474.800452 wait 173520462.389008
+ LP 838 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 32000 collectives 0 delays 87999 wait alls 28000 waits 0 send time 126865492.881420 wait 173367462.215656
+ LP 839 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 123782217.745941 wait 173451204.506931
+ LP 840 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 28000 collectives 0 delays 75999 wait alls 24000 waits 0 send time 101480109.660342 wait 173480857.021711
+ LP 846 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 117628899.557959 wait 173410142.251730
+ LP 847 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 109400440.054701 wait 173454982.145129
+ LP 848 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 24000 collectives 0 delays 71999 wait alls 24000 waits 0 send time 81253949.738278 wait 173521848.466641
+ LP 849 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 32000 collectives 0 delays 87999 wait alls 28000 waits 0 send time 132732009.997561 wait 173363564.716537
+ LP 855 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 106215869.384986 wait 173449928.710771
+ LP 856 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 28000 collectives 0 delays 75999 wait alls 24000 waits 0 send time 92104691.908975 wait 173479977.803080
+ LP 857 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 117889668.476011 wait 173406900.508478
+ LP 858 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 113157082.590903 wait 173449805.987835
+ LP 864 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 28000 collectives 0 delays 75999 wait alls 24000 waits 0 send time 141009964.854111 wait 173479342.968788
+ LP 865 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 141201508.219886 wait 173406918.141481
+ LP 866 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 141467762.525290 wait 173451999.621347
+ LP 867 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 28000 collectives 0 delays 75999 wait alls 24000 waits 0 send time 131947697.281928 wait 173483211.367647
+ LP 873 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 158746789.310466 wait 173411692.623488
+ LP 874 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 152422523.936783 wait 173451912.359773
+ LP 875 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 28000 collectives 0 delays 75999 wait alls 24000 waits 0 send time 145636221.766098 wait 173482476.105678
+ LP 876 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 92971921.942248 wait 173407995.590964
+ LP 882 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 136559257.454198 wait 173403627.091140
+ LP 883 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 121279680.703030 wait 173404468.512134
+ LP 884 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 115108316.599395 wait 173447508.298152
+ LP 885 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 32000 collectives 0 delays 87999 wait alls 28000 waits 0 send time 119092923.249394 wait 173358274.086998
+ LP 891 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 101608771.613358 wait 173445744.683218
+ LP 892 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 24000 collectives 0 delays 71999 wait alls 24000 waits 0 send time 79656875.339902 wait 173521190.775560
+ LP 893 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 32000 collectives 0 delays 87999 wait alls 28000 waits 0 send time 137052231.030985 wait 173366913.194387
+ LP 894 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 135598149.950778 wait 173455959.796574
+ LP 900 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 28000 collectives 0 delays 75999 wait alls 24000 waits 0 send time 109234535.526817 wait 173483607.119779
+ LP 901 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 124900711.183044 wait 173409177.319936
+ LP 902 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 133049540.070903 wait 173452324.981803
+ LP 903 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 24000 collectives 0 delays 71999 wait alls 24000 waits 0 send time 102775709.209990 wait 173524357.832976
+ LP 909 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 32000 collectives 0 delays 87999 wait alls 28000 waits 0 send time 155294037.227986 wait 173372045.056261
+ LP 910 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 147989833.017839 wait 173454596.271339
+ LP 911 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 28000 collectives 0 delays 75999 wait alls 24000 waits 0 send time 102089751.471477 wait 173484887.581283
+ LP 912 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 150911024.001230 wait 173412600.174517
+ LP 918 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 132051145.093431 wait 173452842.375148
+ LP 919 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 28000 collectives 0 delays 75999 wait alls 24000 waits 0 send time 96029520.179847 wait 173486745.748855
+ LP 920 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 130979531.127645 wait 173415701.900140
+ LP 921 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 145779183.957863 wait 173459853.610131
+ LP 927 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 28000 collectives 0 delays 75999 wait alls 24000 waits 0 send time 121589674.930594 wait 173488379.252323
+ LP 928 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 137121774.861344 wait 173413712.604990
+ LP 929 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 152954160.501785 wait 173459000.679279
+ LP 930 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 28000 collectives 0 delays 75999 wait alls 24000 waits 0 send time 124642796.446776 wait 173484663.544466
+ LP 936 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 127376522.400169 wait 173418481.918019
+ LP 937 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 150091746.266360 wait 173414899.731009
+ LP 938 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 137678420.499960 wait 173409033.260733
+ LP 939 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 150862957.089085 wait 173455651.383821
+ LP 945 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 32000 collectives 0 delays 87999 wait alls 28000 waits 0 send time 124648208.875213 wait 173367002.425046
+ LP 946 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 110000187.098904 wait 173452326.034255
+ LP 947 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 24000 collectives 0 delays 71999 wait alls 24000 waits 0 send time 81757425.362903 wait 173527627.400543
+ LP 948 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 32000 collectives 0 delays 87999 wait alls 28000 waits 0 send time 131797368.140813 wait 173363652.093197
+ LP 954 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 117408075.893226 wait 173449705.109423
+ LP 955 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 28000 collectives 0 delays 75999 wait alls 24000 waits 0 send time 87036528.677933 wait 173475043.526804
+ LP 956 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 122354544.824808 wait 173408435.620920
+ LP 957 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 122199310.767239 wait 173451172.568052
+ LP 963 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 24000 collectives 0 delays 71999 wait alls 24000 waits 0 send time 85992581.891275 wait 173519396.735381
+ LP 964 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 32000 collectives 0 delays 87999 wait alls 28000 waits 0 send time 118306127.462118 wait 173367614.137323
+ LP 965 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 107795690.940982 wait 173453396.050750
+ LP 966 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 28000 collectives 0 delays 75999 wait alls 24000 waits 0 send time 97149100.931521 wait 173485540.605550
+ LP 972 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 114338650.129426 wait 173409203.374464
+ LP 973 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 122896590.376487 wait 173452724.139333
+ LP 974 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 28000 collectives 0 delays 75999 wait alls 24000 waits 0 send time 102331359.028401 wait 173483906.102138
+ LP 975 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 127613262.684272 wait 173404093.953913
+ LP 981 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 112176178.231118 wait 173450031.804898
+ LP 982 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 28000 collectives 0 delays 75999 wait alls 24000 waits 0 send time 105871774.852526 wait 173479653.419791
+ LP 983 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 28000 collectives 0 delays 83999 wait alls 28000 waits 0 send time 115757333.803182 wait 173404083.576653
+ LP 984 unmatched irecvs 0 unmatched sends 0 Total sends 28000 receives 24000 collectives 0 delays 79999 wait alls 28000 waits 0 send time 109835483.415681 wait 173451514.367565
+ LP 990 unmatched irecvs 0 unmatched sends 0 Total sends 24000 receives 28000 collectives 0 delays 75999 wait alls 24000 waits 0 send time 106949524.092418 wait 173481453.700009
+	: Running Time = 1349.6902 seconds
+
+TW Library Statistics:
+	Total Events Processed                              1499363033
+	Events Aborted (part of RBs)                                 0
+	Events Rolled Back                                           0
+	Event Ties Detected in PE Queues                            90
+	Efficiency                                              100.00 %
+	Total Remote (shared mem) Events Processed                   0
+	Percent Remote Events                                     0.00 %
+	Total Remote (network) Events Processed                      0
+	Percent Remote Events                                     0.00 %
+
+	Total Roll Backs                                             0
+	Primary Roll Backs                                           0
+	Secondary Roll Backs                                         0
+	Fossil Collect Attempts                                      0
+	Total GVT Computations                                       0
+
+	Net Events Processed                                1499363033
+	Event Rate (events/sec)                              1110894.2
+	Total Events Scheduled Past End Time                         0
+
+TW Memory Statistics:
+	Events Allocated                                        658257
+	Memory Allocated                                        743109
+	Memory Wasted                                              289
+
+TW Data Structure sizes in bytes (sizeof):
+	PE struct                                                  592
+	KP struct                                                  104
+	LP struct                                                   88
+	LP Model struct                                             64
+	LP RNGs                                                     80
+	Total LP                                                   232
+	Event struct                                               120
+	Event struct with Model                                   1144
+
+TW Clock Cycle Statistics (MAX values in secs at 1.0000 GHz):
+	Priority Queue (enq/deq)                                0.0000
+	AVL Tree (insert/delete)                                0.0000
+	LZ4 (de)compression                                     0.0000
+	Buddy system                                            0.0000
+	Event Processing                                        0.0000
+	Event Cancel                                            0.0000
+	Event Abort                                             0.0000
+
+	GVT                                                     0.0000
+	Fossil Collect                                          0.0000
+	Primary Rollbacks                                       0.0000
+	Network Read                                            0.0000
+	Total Time (Note: Using Running Time above for Speedup)      0.0000
+
+TW GVT Statistics: MPI AllReduce
+	GVT Interval                                                16
+	Batch Size                                                  16
+
+	Forced GVT                                                   0
+	Total GVT Computations                                       0
+	Total All Reduce Calls                                       0
+	Average Reduction / GVT                                   -nan
+
+ Total bytes sent 3951123872 recvd 3951123872 
+ max runtime 174276083.606948 ns avg runtime 44367093.416097 
+ max comm time 174276083.606948 avg comm time 44367093.416097 
+ max send time 158746789.310466 avg send time 40923113.492562 
+ max recv time 3426208723.721711 avg recv time 201636418.522856 
+ max wait time 0.000000 avg wait time 41217536.057892 
+LP-IO: writing output to lp-io/new_codes/cont-adp-40830-1465500344/
+LP-IO: data files:
+   lp-io/new_codes/cont-adp-40830-1465500344/dragonfly-router-traffic
+   lp-io/new_codes/cont-adp-40830-1465500344/dragonfly-router-stats
+   lp-io/new_codes/cont-adp-40830-1465500344/dragonfly-msg-stats
+   lp-io/new_codes/cont-adp-40830-1465500344/model-net-category-all
+   lp-io/new_codes/cont-adp-40830-1465500344/model-net-category-test
+   lp-io/new_codes/cont-adp-40830-1465500344/mpi-replay-stats
+ Average number of hops traversed 2.812765 average chunk latency 6.016683 us maximum chunk latency 304.528438 us avg message size 1314.923462 bytes finished messages 3004832 finished chunks 125365228 
+
+ ADAPTIVE ROUTING STATS: 97203016 chunks routed minimally 28162212 chunks routed non-minimally completed packets 125365228 
+
+ Total packets generated 9968481 finished 9968481 
